@@ -1,0 +1,34 @@
+.quiz-type {
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: xx-large;
+    width: 233px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 19px;
+    padding: 55px 0;
+    cursor: pointer;
+    height: 163px;
+    position: absolute;
+}
+
+.quiz-type:hover {
+    background: black;
+    color: white;
+    opacity: .7;
+}
+
+.create-quiz {
+    top: 35%;
+    left: 26%;
+}
+
+.attempt-quiz {
+    top: 35%;
+    right: 26%;
+}
+
+.quiz-type-div {
+    height: 100vh;
+    position: relative;
+}
